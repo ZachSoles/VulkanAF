@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Vulkan                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Digitized SI and Driver forms for AGE Rangers.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -43,7 +43,7 @@ features                                  :
     description                           : Quickly email forms to a NIPR computer after entering on eTool Lite.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Air Force Developed and Support
+  - title                                 : Air Force Developed
     description                           : Developed in SwiftUI, released, and updated by Mobile PACAF Team of Project Arc.
     fontawesome_icon_name                 : sync
 
@@ -58,7 +58,7 @@ cover_image                               : assets/headerimage.png              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : coral                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
